@@ -8,6 +8,11 @@ footer {
   background: #343b3f;
 }
 
+footer > span,
+.navbar > span {
+  user-select: none;
+}
+
 .navbar > a {
   color: rgb(250, 220, 0);
 }
